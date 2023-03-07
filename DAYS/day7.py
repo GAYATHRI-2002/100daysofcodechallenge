@@ -30,3 +30,8 @@ print(factorial)
 num = int(input("enter the total number : "))
 for i in range(num,0,-1):
    print(i)    
+
+number = int(input("enter the number: "))
+for i in range(1,number + 1):
+    if number % i ==0:
+        print(i)
