@@ -35,3 +35,18 @@ number = int(input("enter the number: "))
 for i in range(1,number + 1):
     if number % i ==0:
         print(i)
+        
+        
+num1 = int(input("enter the first number: "))
+num2 = int(input("enter the second number: "))
+operator = input("enter the operator: ")
+
+if (operator == "+"):
+    print(num1 + num2)
+if (operator == "-"):
+    print(num1 - num2)
+if (operator == "*"):
+    print(num1 * num2) 
+if (operator == "/"):
+    print(num1 / num2)         
+          
