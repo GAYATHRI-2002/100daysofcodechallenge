@@ -18,3 +18,11 @@ if total > 50:
     print("pass")
 else:
     print("fail") 
+    
+    
+factorial = 1
+num = int(input("enter the number to find the factorial: "))
+for i in range(1,num+1): 
+    factorial = factorial*i
+print(factorial)     
+
