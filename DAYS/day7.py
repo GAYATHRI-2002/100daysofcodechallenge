@@ -26,3 +26,7 @@ for i in range(1,num+1):
     factorial = factorial*i
 print(factorial)     
 
+
+num = int(input("enter the total number : "))
+for i in range(num,0,-1):
+   print(i)    
