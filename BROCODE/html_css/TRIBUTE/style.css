@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    background-color: rgb(28, 24, 24);
+}
+.img1{
+    top: 100px;
+   text-align: center;
+    margin: auto;
+    display: block;
+    height:200px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px white ;
+    
+
+    
+}
+#tex1{
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family:  cursive;
+    font-size: 48px;
+    text-align: center;
+    box-shadow: outset  #2a2917;
+  border-radius: 100px;
+}
+#tex2{
+    color: white;
+   
+    font-family: cursive;
+}
+.box2{
+
+    border-top: 400px;
+    font-family: cursive;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    
+}
